@@ -1,3 +1,40 @@
+::selection {
+    color: $text-color;
+    background-color: $secondary-color;
+}
+
+
 body {
     background-color: $bg-primary;
+    color: $text-color;
+    font-family: $font-primary;
+}
+
+a {
+    color: $primary-color;
+
+    &:hover {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.container-xxl {
+    max-width: 1820px;
+}
+
+.wf-300 {
+    font-weight: 300;
+}
+
+.wf-400 {
+    font-weight: 400;
+}
+
+.wf-600 {
+    font-weight: 600;
+}
+
+.wf-700 {
+    font-weight: 700;
 }
