@@ -67,6 +67,11 @@ h6,
 
 .container {
     max-width: 1170px;
+    padding: 0 15px;
+}
+
+.container {
+    max-width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -273,6 +278,11 @@ h6,
 .scroll-heidden::-webkit-scrollbar {
     width: 0px;
 }
+
+.slick-track {
+    display: flex;
+}
+
 
 .slick-track {
     display: flex;
