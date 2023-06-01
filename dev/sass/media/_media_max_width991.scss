@@ -64,13 +64,14 @@
         }
     
         .slick-list {
-            margin: 0 -10px;
+            margin: 0 -20px;
             border-radius: 0;
         }
         .slick-slide {
             border-radius: 0;
             height: calc(100vh - 72px);
             padding: 26vh 0 228px;
+            margin: 0 10px;
          
             &:before {
                 content: "";
