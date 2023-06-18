@@ -269,10 +269,7 @@ h6,
 /* FireFox */
 .scroll {
     scrollbar-color: $primary-color #fff;
-    padding-right: 15px
-}
-
-.scroll {
+    padding-right: 15px;
     overflow: auto;
 }
 
@@ -284,9 +281,61 @@ h6,
     display: flex;
 }
 
-
-.slick-track {
+.slick-dots {
     display: flex;
+    justify-content: center;
+}
+
+.slick-dots {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+
+    > li {
+        margin: 0 13px;
+        list-style: none;
+        height: 8px;
+        line-height: 1;
+        font-size: 0;
+        &.slick-active {
+            button {
+                background-color: #fff;
+            }
+        }
+    }
+
+    button {
+        font-size: 0;
+        padding: 0px;
+        border-radius: 50%;
+        opacity: 0.9;
+        border: 2px solid #FFFFFF;
+        width: 8px;
+        height: 8px;
+        background: transparent;
+        outline: none;
+    }
+}
+
+.slider-template {
+   
+    margin: 0 -15px;
+
+.slick-slide {
+    padding: 0 15px 27px;
+}
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    &.slick-prev {
+        left: -100px;
+        transform: rotate(180deg) translate(0, 50%);
+    }
+    &.slick-next{
+        right: -100px;
+    }
+}
 }
 
 section {

@@ -44,36 +44,12 @@
         left: 50%;
         transform: translate(-50%, 0);
         top: calc(100% - 76px);
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0; 
-
-        > li {
-            margin: 0 13px;
-            list-style: none;
-            height: 8px;
-            line-height: 1;
-            font-size: 0;
-            &.slick-active {
-                button {
-                    background-color: #fff;
-                }
-            }
-        }
-
-        button {
-            font-size: 0;
-            padding: 0px;
-            border-radius: 50%;
-            opacity: 0.9;
-            border: 2px solid #FFFFFF;
-            width: 8px;
-            height: 8px;
-            background: transparent;
-            outline: none;
-        }
     }
+    
+   
+
+        
+    
 
     .container-arrows {
         position: absolute;
