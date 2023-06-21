@@ -176,11 +176,7 @@
 
     }
 
-    .advantages {
-        .slick-list {
-            padding-top: 12px;
-        }
-    }
+    
 
     .advantage-title {
         max-width: 263px;
@@ -190,4 +186,29 @@
     .slider-template {
         width: 390px;
     }
+}
+
+.services {
+    .slick-list {
+        padding-top: 10px;
+    }
+
+
+.services-title {
+    max-width: 263px;
+    margin: 0 auto;}
+
+    .slider-template__description {
+        width: 271px;
+    }
+    
+
+.services .slider-template {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 14px 34px;
+}
 }
